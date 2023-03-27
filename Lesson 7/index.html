@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs Menu</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Materialize CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Photo of the Year</h1>
+        <img src="https://source.unsplash.com/random/1800x1000" alt="">
+
+        <div class="tabs-container">
+            <button class="btn active" data-id="photographer">Photographer</button>
+            <button class="btn" data-id="camera-gear">Gear</button>
+            <button class="btn" data-id="location">Location</button>
+        </div>
+
+        <div class="tabs-content">
+            <div class="content active" id="photographer">
+                <h4>Photographer</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, ipsam. Facilis, animi perferendis. Architecto
+                    porro illo similique at dolore, voluptate veritatis maxime dolorem. Provident ducimus mollitia culpa sint cum
+                    voluptate corporis, rerum laboriosam id non, illo deserunt unde eius. Incidunt optio nostrum, impedit esse iusto
+                    inventore eveniet rerum velit. Officiis magnam odit quo ipsam nam itaque vero laudantium enim, beatae hic
+                    aliquid incidunt id soluta. Dignissimos consequuntur assumenda dolores.
+                </p>
+            </div>
+            
+            <div class="content" id="camera-gear">
+                <h4>Camera Gear</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa eaque incidunt deleniti ipsa totam laudantium
+                    molestiae officia magnam nobis, dolores nisi numquam maiores accusantium ratione, eveniet animi excepturi
+                    dolorem quod. Tenetur sint aliquam nulla suscipit expedita reprehenderit praesentium ut perferendis labore
+                    accusantium ipsum maiores dolores unde deserunt sequi, quae possimus, debitis iste cumque dicta. Et non
+                    perferendis reprehenderit? Distinctio saepe eos tempora facilis numquam! Neque quos ex quod dolores voluptatum
+                    dolorem dolore pariatur praesentium minima.
+                </p>
+            </div>
+            
+            <div class="content" id="location">
+                <h4>Location</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repudiandae iusto, nostrum, dolore quae nemo sunt
+                    est eius impedit adipisci pariatur, quibusdam dolores suscipit libero aperiam ipsum maxime. Aperiam ipsam
+                    perspiciatis beatae, totam ea adipisci maxime quasi consequatur velit enim dolorum animi exercitationem fuga
+                    veniam vero ipsa quaerat quo nulla?
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="/tabs.js"></script>
+</body>
+</html>

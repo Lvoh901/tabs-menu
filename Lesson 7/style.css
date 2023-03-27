@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    margin-bottom: .5rem;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    color: #fff;
+    font-weight: 600;
+}
+
+img{
+    border-radius: 8px;
+    height: 430px;
+    margin-bottom: 1rem;
+}
+
+.tabs-container{
+    max-width: 750px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tabs.content{
+    max-width: 750px;
+}
+
+.content{
+    display: none;
+    padding-bottom: 2rem;
+}
+
+.btn.active{
+    background-color: #fff;
+    color: #222;
+    box-shadow: none;
+    border: 1px solid #666;
+}
+
+.content.active{
+    display: block;
+}
+
+h4{
+    font-weight: 600;
+    position: relative;
+    animation: slideText .5s ease-out;
+}
+
+@keyframes slideText{
+    0%{
+        opacity: 0;
+        left: -200px;
+    }
+
+    100%{
+        opacity: 1;
+        left: 0px;
+    }
+}
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+    img{
+        border-radius: 8px;
+        height: 380px;
+        width: 400px;
+        margin-bottom: 1rem;
+    }
+}
+ 
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {...}
+ 
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+    
+}
+ 
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+    
+}
+ 
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {...}

@@ -1,0 +1,8 @@
+Javascript Concepts Covered:
+#1. DOM [querySelector() querySelectorAll()]
+#2. Variables [let, const]
+#3. Function [regular & arrow function]
+#4. Conditionals [if]
+#5. Loop [forEach()]
+#5. Event Listener [click & onclick]
+#6. DOM elemtest [classList.remove() & classlist.add()]
